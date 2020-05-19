@@ -24,8 +24,6 @@ spec:
       - image: dockercoins/worker:v0.1
         imagePullPolicy: IfNotPresent
         name: worker
-        terminationMessagePath: /dev/termination-log
-        terminationMessagePolicy: File
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler
