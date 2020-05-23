@@ -6,8 +6,9 @@ metadata:
   name: backend
   namespace: default
 spec:
+  externalTrafficPolicy: Cluster
   ports:
- -  port: 9000
+  - port: 9000
     protocol: TCP
     targetPort: 9000
   selector:
