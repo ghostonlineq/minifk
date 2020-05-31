@@ -21,7 +21,7 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: ghostonlineq/frontend
+      - image: ghostonlineq/frontend:v1
         imagePullPolicy: Always
         name: frontend
       dnsPolicy: ClusterFirst
